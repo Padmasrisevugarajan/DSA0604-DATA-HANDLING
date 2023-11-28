@@ -1,0 +1,4 @@
+#6.	R BAR Chart
+# Creating the data for Bar chart  
+H<- c(12,35,54,3,41)  
+barplot(H)  
