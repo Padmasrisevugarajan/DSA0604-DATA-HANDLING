@@ -1,0 +1,10 @@
+# Boxplot without notches
+boxplot(mpg ~ cyl, data = mtcars,
+        xlab = "Quantity of Cylinders",
+        ylab = "Miles Per Gallon",
+        main = "Boxplot Example",
+        notch = FALSE,  
+        varwidth = TRUE,
+        boxfill = c("green", "yellow", "red"),
+        names = c("High", "Medium", "Low")
+)
